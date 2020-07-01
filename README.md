@@ -58,7 +58,7 @@ git clone https://github.com/roshanlc/reverse-geolocating-rest-api-spring-boot.g
   
 cd reverse-geolocating-rest-api-spring-boot  
   
-maven clean package  
+mvn clean package  
   
 java -jar target/reversegeolocator-0.0.1-SNAPSHOT.jar --server.port=8080  
   
