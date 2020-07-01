@@ -77,7 +77,8 @@ java -jar target/reversegeolocator-0.0.1-SNAPSHOT.jar --server.port=8080
 <table class="tg" >  
 <thead>  
   <tr>  
-    <th class="tg-0lax">Endpoint</th>  
+    <th class="tg-0lax">Method</th>
+    <th class="tg-0lax">Endpoint</th>
     <th class="tg-0lax">Parameters</th>  
     <th class="tg-0lax">Response</th>  
     <th class="tg-0lax">Demo</th>  
@@ -85,12 +86,14 @@ java -jar target/reversegeolocator-0.0.1-SNAPSHOT.jar --server.port=8080
 </thead>  
 <tbody>  
   <tr>  
+    <td class="tg-0lax">GET</td> 
     <td class="tg-0lax">/locate</td>  
     <td class="tg-0lax">lat<br>lon<br></td>  
     <td class="tg-0lax">Returns json format location details</td>  
     <td class="tg-baqh">/locate?lat=65.654&amp;lon=54.35</td>  
   </tr>  
-  <tr>  
+  <tr> 
+     <td class="tg-0lax">GET</td> 
     <td class="tg-0lax">/docs</td>  
     <td class="tg-0lax"></td>  
     <td class="tg-0lax">Returns this documentation</td>  
