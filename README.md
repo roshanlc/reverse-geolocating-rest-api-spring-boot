@@ -37,7 +37,7 @@
   
     
   
-> A simple web app providing Rest api for reverse geolocating the provided coordinate.  
+> A simple web app providing Rest api for reverse geolocating the provided coordinate.  It is a spring boot project using spring web starter pack. The embedded server is tomcat. Any other embedded server can be used as well.
   
     
     
