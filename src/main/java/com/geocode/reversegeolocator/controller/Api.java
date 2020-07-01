@@ -30,6 +30,7 @@ public class Api
             "<table class=\"tg\">\n" +
             "<thead>\n" +
             "  <tr>\n" +
+             "    <th class=\"tg-0lax\">Method</th>\n" +
             "    <th class=\"tg-0lax\">Endpoint</th>\n" +
             "    <th class=\"tg-0lax\">Parameters</th>\n" +
             "    <th class=\"tg-0lax\">Response</th>\n" +
@@ -38,12 +39,14 @@ public class Api
             "</thead>\n" +
             "<tbody>\n" +
             "  <tr>\n" +
+              "    <td class=\"tg-0lax\">GET</td>\n" +
             "    <td class=\"tg-0lax\">/locate</td>\n" +
             "    <td class=\"tg-0lax\">lat<br>lon<br></td>\n" +
             "    <td class=\"tg-0lax\">Returns json format location details</td>\n" +
             "    <td class=\"tg-baqh\">/locate?lat=65.654&amp;lon=54.35</td>\n" +
             "  </tr>\n" +
             "  <tr>\n" +
+              "    <td class=\"tg-0lax\">GET</td>\n" +
             "    <td class=\"tg-0lax\">/docs</td>\n" +
             "    <td class=\"tg-0lax\"></td>\n" +
             "    <td class=\"tg-0lax\">Returns this documentation</td>\n" +
